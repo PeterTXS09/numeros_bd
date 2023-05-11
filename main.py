@@ -152,4 +152,5 @@ if __name__ == "__main__":
     for i in range(10):
         if not os.path.exists(str(i)):
             os.mkdir(str(i))
-    app.run(debug=False, host="0.0.0.0", port=8000)
+    #app.run(debug=False, host="0.0.0.0", port=8000)
+    app.run()
